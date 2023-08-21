@@ -1,5 +1,15 @@
 <template>
   <div class="w-full h-full p-1 lg:px-5 lg:py-5 lg:p-3 bg-[#F38630]">
+    <div class="flex justify-between p-5">
+      <div>
+        <h1 class="flex text-lg py-5 font-bold">• PRODUK TERBAIK KAMI</h1>
+      </div>
+      <div class="flex items-center gap-5">
+        <IconCircleArrowLeftFilled />
+        <IconCircleArrowRightFilled />
+      </div>
+    </div>
+
     <div class="flex gap-2 lg:gap-5 overflow-x-auto">
       <div class="card w-full h-full bg-base-100 rounded-3xl relative">
         <div class="flex justify-end p-2">
@@ -82,5 +92,9 @@
 </template>
 
 <script setup>
-import { IconHeartFilled } from '@tabler/icons-vue'
+import {
+  IconHeartFilled,
+  IconCircleArrowLeftFilled,
+  IconCircleArrowRightFilled
+} from '@tabler/icons-vue'
 </script>

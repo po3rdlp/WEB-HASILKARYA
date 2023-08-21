@@ -53,7 +53,7 @@
           class="w-full p-3 lg:h-auto lg:w-fit lg:flex lg:justify-center items-center lg:space-x-10 rounded-lg"
         >
           <div
-            class="grid grid-cols-5 w-full px-5 py-3 lg:h-auto lg:w-fit lg:flex lg:justify-center items-center lg:space-x-10 bg-white shadow-2xl rounded-lg"
+            class="grid grid-cols-5 w-full px-5 py-3 lg:h-auto lg:w-fit md:flex md:justify-center md:space-x-7 lg:flex lg:justify-center items-center lg:space-x-10 bg-white shadow-2xl rounded-lg"
           >
             <div class="w-24 h-12 lg:w-1/5 lg:h-auto lg:p-3">
               <img
@@ -62,7 +62,9 @@
                 alt="Multimart Logo"
               />
             </div>
-            <div class="lg:border-r lg:border-gray-300 lg:h-12"></div>
+            <div
+              class="md:border-r md:border-gray-300 md:h-12 lg:border-r lg:border-gray-300 lg:h-12"
+            ></div>
 
             <div class="w-24 h-8 lg:w-1/5 lg:h-auto lg:p-3">
               <img
@@ -71,7 +73,9 @@
                 alt="Alfamart Logo"
               />
             </div>
-            <div class="lg:border-r lg:border-gray-300 lg:h-12"></div>
+            <div
+              class="md:border-r md:border-gray-300 md:h-12 lg:border-r lg:border-gray-300 lg:h-12"
+            ></div>
 
             <div class="w-20 h-10 lg:w-1/5 lg:h-auto lg:p-3">
               <img
@@ -80,7 +84,9 @@
                 alt="Indomart Logo"
               />
             </div>
-            <div class="lg:border-r lg:border-gray-300 lg:h-12"></div>
+            <div
+              class="md:border-r md:border-gray-300 md:h-12 lg:border-r lg:border-gray-300 lg:h-12"
+            ></div>
 
             <div class="w-24 h-11 lg:w-1/5 lg:h-auto lg:p-3">
               <img
@@ -89,7 +95,9 @@
                 alt="Indogrosir Logo"
               />
             </div>
-            <div class="lg:border-r lg:border-gray-300 lg:h-12"></div>
+            <div
+              class="md:border-r md:border-gray-300 md:h-12 lg:border-r lg:border-gray-300 lg:h-12"
+            ></div>
 
             <div class="w-24 h-10 lg:w-1/5 lg:h-auto lg:p-3">
               <img
