@@ -4,12 +4,11 @@
       <a class="flex items-center">
         <img
           src="../assets/img/LOGO/logo_hasilkarya.png"
-          class="h-14 w-14 md:h-20 md:w-20 lg:w-16 lg:h-10 mr-5"
+          class="h-[42.78px] w-[60px] md:h-[42.78px] md:w-[64px] lg:w-16 lg:h-10 mr-5"
           alt="Flowbite Logo"
         />
         <div class="grid w-12">
-          <span
-            class="self-center text-sm md:text-md lg:text-lg font-semibold font-mono whitespace-nowrap"
+          <span class="self-center text-lg md:text-lg lg:text-2xl font-semibold whitespace-nowrap"
             >Hasil Karya</span
           >
         </div>

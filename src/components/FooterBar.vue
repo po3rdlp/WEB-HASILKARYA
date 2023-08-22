@@ -5,14 +5,22 @@
         <div class="grid w-52">
           <img
             src="../assets/img/LOGO/logo_hasilkarya.png"
-            class="w-20 h-14"
+            class="w-[64px] h-[42.75]"
             alt="logo_hasilkarya"
           />
           <p class="mt-5">Lebih baik, beragam pilihan dan bernutrisi</p>
           <div class="flex gap-[24px] mt-5">
-            <IconBrandFacebookFilled />
-            <IconBrandTwitterFilled />
-            <IconBrandInstagram />
+            <a href="https://www.facebook.com/hasilkaryamanado" target="_blank"
+              ><IconBrandFacebookFilled
+            /></a>
+            <a
+              href="https://grab.onelink.me/2695613898?pid=inappsharing&c=6-C3XWNJ5CL4KYUE&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABMART%26sourceID%3DA4pcqCZkS4%26merchantIDs%3D6-C3XWNJ5CL4KYUE&af_force_deeplink=true&af_web_dp=https%3A%2F%2Fwww.grab.com%2Fdownload"
+              target="_blank"
+              ><IconCar
+            /></a>
+            <a href="https://www.instagram.com/hasilkarya/" target="_blank"
+              ><IconBrandInstagram
+            /></a>
           </div>
         </div>
         <div>
@@ -39,9 +47,5 @@
 </template>
 
 <script setup>
-import {
-  IconBrandTwitterFilled,
-  IconBrandFacebookFilled,
-  IconBrandInstagram
-} from '@tabler/icons-vue'
+import { IconCar, IconBrandFacebookFilled, IconBrandInstagram } from '@tabler/icons-vue'
 </script>

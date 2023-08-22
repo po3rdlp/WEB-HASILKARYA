@@ -1,5 +1,5 @@
 <template>
-  <div class="hero min-h-screen xl:h-full 2xl:h-full bg-base-200 z-10 mt-5 md:mt-5 lg:mt-0">
+  <div class="hero h-[60rem] md:h-full xl:h-full 2xl:h-full bg-base-200 z-10 mt-5 md:mt-5 lg:mt-0">
     <div class="hero-content flex-col-reverse md:flex-row-reverse lg:flex-row-reverse">
       <div class="relative p-5 lg:p-10">
         <img
