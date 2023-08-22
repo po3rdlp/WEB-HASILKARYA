@@ -68,6 +68,7 @@
 <script setup>
 import { ref } from 'vue'
 import { IconAlignCenter } from '@tabler/icons-vue'
+import { RouterLink } from 'vue-router'
 
 const openToggle = ref(false)
 
