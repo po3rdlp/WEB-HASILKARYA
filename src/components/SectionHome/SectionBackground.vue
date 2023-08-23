@@ -3,7 +3,7 @@
     <div class="hero-content flex-col-reverse md:flex-row-reverse lg:flex-row-reverse">
       <div class="relative p-5 lg:p-10">
         <img
-          src="../../assets/img/image.png"
+          src="../../assets/img/Image.png"
           class="w-96 md:max-w-md lg:max-w-lg rounded-lg transition ease-in-out delay-150 hover:scale-110 hover:bg-none duration-300 text-neutral-content"
         />
       </div>
