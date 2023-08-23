@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute w-full top-0 z-10">
+  <div class="absolute w-full top-0 z-20">
     <NavigationBar />
   </div>
   <div>

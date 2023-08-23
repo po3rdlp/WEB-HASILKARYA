@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex items-start lg:items-end min-h-screen md:min-h-max lg:h-[40rem] relative bg-[#F38630]"
+    class="flex items-start lg:items-end min-h-screen md:min-h-max lg:h-[40rem] relative bg-[#F38630] z-10"
   >
     <div class="absolute bottom-0">
       <img

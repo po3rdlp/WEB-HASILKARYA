@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+// eslint-disable-next-line no-unused-vars, no-undef
+const plugin = require('tailwindcss/plugin')
 // eslint-disable-next-line no-undef
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
@@ -38,7 +41,27 @@ module.exports = {
     }
   },
   // eslint-disable-next-line no-undef
-  plugins: [require('daisyui')],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        '.scrollbar-hide': {
+          /* IE and Edge */
+          '-ms-overflow-style': 'none',
+
+          /* Firefox */
+          'scrollbar-width': 'none',
+
+          /* Safari and Chrome */
+          '&::-webkit-scrollbar': {
+            display: 'none'
+          }
+        }
+      })
+    }),
+    // eslint-disable-next-line no-undef
+    require('daisyui')
+  ],
+
   daisyui: {
     themes: ['light']
   }
