@@ -4,7 +4,7 @@
   >
     <div class="absolute bottom-0">
       <img
-        src="../../assets/img/emojione-monotone_sheaf-of-rice (1).png"
+        src="../../assets/img/emojione-monotone_sheaf-of-rice_(1).png"
         class="max-w-full h-screen pointer-events-none opacity-100"
       />
     </div>
@@ -19,7 +19,7 @@
             <h1 class="text-2xl lg:text-5xl text-center lg:text-left font-bold">
               Lebih baik, beragam pilihan dan lebih bernutrisi
             </h1>
-            <p class="py-6 text-center lg:text-left text-black">
+            <p class="py-6 text-center lg:text-left text-black w-full lg:w-96">
               Sebagai pabrik beras, kami berpengalaman, dan bekerjasama dengan para petani lokal
               yang berada di Nusantara.
             </p>
@@ -30,8 +30,7 @@
                 </button></RouterLink
               >
             </div>
-
-            <p class="py-6 text-center lg:text-left font-light text-xs">
+            <p class="py-6 text-center lg:text-left font-light text-xs w-full lg:w-96">
               "Sebagai pabrik beras, kami berpengalaman, dan bekerjasama dengan para petani lokal
               yang berada di Nusantara.""
             </p>
@@ -46,7 +45,7 @@
               />
 
               <img
-                src="../../assets/img/sack-rice-with-rice-wooden-spoon-rice-plant 1.png"
+                src="../../assets/img/sack-rice-with-rice-wooden-spoon-rice-plant_1.png"
                 class="w-full h-96 md:w-[20em] md:h-[20em] lg:w-[27em] lg:h-[33em] absolute md:absolute lg:absolute bottom-0 right-0 pointer-events-none"
               />
             </div>

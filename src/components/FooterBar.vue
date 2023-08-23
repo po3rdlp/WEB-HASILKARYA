@@ -25,7 +25,7 @@
         </div>
         <div>
           <img
-            src="../assets/img/LOGO/Logo Perseroan 2.png"
+            src="../assets/img/LOGO/Logo_Perseroan_2.png"
             class="w-20 h-20"
             alt="logo_perseroan"
           />
