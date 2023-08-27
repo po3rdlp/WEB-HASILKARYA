@@ -33,28 +33,28 @@
         >
           <li>
             <a>
-              <RouterLink to="/" class="btn btn-ghost md:bg-transparent" aria-current="page">
+              <RouterLink to="/home" class="btn btn-ghost md:bg-transparent" aria-current="page">
                 BERANDA
               </RouterLink>
             </a>
           </li>
           <li>
             <a>
-              <RouterLink to="/about" class="btn btn-ghost" aria-current="page">
+              <RouterLink to="/home#about" class="btn btn-ghost" aria-current="page">
                 <span class="">Tentang Kami</span>
               </RouterLink></a
             >
           </li>
           <li>
             <a>
-              <RouterLink to="/about" class="btn btn-ghost" aria-current="page">
+              <RouterLink to="/home#products" class="btn btn-ghost" aria-current="page">
                 <span class="">Produk</span>
               </RouterLink></a
             >
           </li>
           <li>
             <a>
-              <RouterLink to="/about" class="btn btn-ghost" aria-current="page">
+              <RouterLink to="/contact" class="btn btn-ghost" aria-current="page">
                 <span class="">Kontak</span>
               </RouterLink></a
             >

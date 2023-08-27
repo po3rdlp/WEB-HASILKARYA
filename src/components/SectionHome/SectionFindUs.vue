@@ -10,8 +10,8 @@
             Utara, 95661
           </p>
 
-          <RouterLink to="/about" class="btn bg-[#230F00] text-white"
-            >BUKA DI GOOGLE MAPS</RouterLink
+          <a href="https://goo.gl/maps/mwndN4rtNTPE2AC5A" class="btn bg-[#230F00] text-white"
+            >BUKA DI GOOGLE MAPS</a
           >
         </div>
       </div>
@@ -25,5 +25,13 @@
         ></iframe>
       </div>
     </div>
+    <div class="p-1 md:p-7 lg:p-10">
+      <p class="font-bold text-center p-5">OUTLET KAMI</p>
+      <OutletTable />
+    </div>
   </div>
 </template>
+
+<script setup>
+import OutletTable from '../OutletTable.vue'
+</script>

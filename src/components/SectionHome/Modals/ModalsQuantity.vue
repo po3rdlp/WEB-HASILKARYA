@@ -80,14 +80,10 @@
         </div>
       </div>
       <div class="modal-action">
-        <!-- if there is a button in form, it will close the modal -->
         <a aria-label="Chat on WhatsApp" :href="whatsappLink" target="_blank">
           <p class="btn btn-primary">Pesan</p>
         </a>
-
-        <!-- <button class="btn btn-primary" @click="calculateTotalPrice">Check</button> -->
         <button class="btn btn-warning" @click="closeModal">Close</button>
-        <button class="btn btn-success" @click="test">Test</button>
       </div>
     </div>
   </dialog>
@@ -138,11 +134,6 @@ export default {
     }
   },
   methods: {
-    test() {
-      console.log(
-        `${this.personName} + ${this.companyName} + ${this.desc} + ${this.quantity} + ${this.selectedCategory} + ${this.deliveryAddress}`
-      )
-    },
     minusButton() {
       if (this.quantity > 1) {
         this.quantity--

@@ -2,10 +2,10 @@
   <div>
     <SectionIntro />
   </div>
-  <div>
+  <div id="about">
     <SectionBackground />
   </div>
-  <div>
+  <div id="products">
     <SectionProducts />
   </div>
   <div>

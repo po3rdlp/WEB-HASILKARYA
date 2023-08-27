@@ -164,7 +164,7 @@ import {
   IconCircleArrowRightFilled
 } from '@tabler/icons-vue'
 import ModalsQuantity from './Modals/ModalsQuantity.vue'
-import Beras from '../../assets/DataProduk/DataProduk.js'
+import Beras from '../../assets/Data/DataProduk.js'
 
 export default {
   components: {

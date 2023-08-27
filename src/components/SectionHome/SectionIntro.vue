@@ -24,7 +24,7 @@
               yang berada di Nusantara.
             </p>
             <div class="flex justify-center lg:justify-start">
-              <RouterLink to="/about">
+              <RouterLink to="/home#about">
                 <button class="btn bg-[#230F00] hover:bg-black border-none text-white">
                   TENTANG KAMI
                 </button></RouterLink
