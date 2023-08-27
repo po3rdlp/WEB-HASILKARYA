@@ -26,7 +26,7 @@
       </button>
       <div
         :class="{ hidden: !openToggle }"
-        class="w-full lg:block md:w-full lg:w-auto flex md:justify-center md:items-center bg-slate-400 bg-opacity-25 sm:bg-opacity-50 md:bg-opacity-20 lg:bg-transparent"
+        class="w-full lg:block md:w-full lg:w-auto flex md:justify-center md:items-center bg-[#ffffff] opacity-90 rounded-2xl lg:bg-transparent"
       >
         <ul
           class="font-medium flex flex-col px-11 mt-4 borderrounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"

@@ -50,7 +50,9 @@
           </div>
         </div>
       </div>
-      <div class="w-auto flex-shrink-0 rounded-lg lg:mt-0 lg:col-span-5 lg:flex">
+      <div
+        class="max-w-sm md:max-w-2xl lg:max-w-lg flex-shrink-0 rounded-lg lg:mt-0 lg:col-span-5 lg:flex"
+      >
         <div class="card-body">
           <div class="form-control">
             <label class="label">
