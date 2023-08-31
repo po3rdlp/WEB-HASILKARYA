@@ -17,7 +17,7 @@
             class="grid justify-end max-w-2xl md:max-w-md lg:max-w-2xl p-7 rounded-r-3xl text-[#230F00]"
           >
             <h1 class="text-2xl lg:text-5xl text-center lg:text-left font-bold">
-              Lebih baik, beragam pilihan dan lebih bernutrisi
+              Lebih baik, Beragam pilihan dan lebih Bernutrisi
             </h1>
             <p class="py-6 text-center lg:text-left text-black w-full lg:w-96">
               Sebagai pabrik beras, kami berpengalaman, dan bekerjasama dengan para petani lokal

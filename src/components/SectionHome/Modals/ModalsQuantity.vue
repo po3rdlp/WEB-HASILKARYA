@@ -124,13 +124,13 @@ export default {
         this.quantity
       )} harga Rp${encodedProductPrice}%0ADeskripsi: ${encodeURIComponent(
         this.desc
-      )}%0ATotal Yang Dibayar: ${jumlah}%0AMetode Pengiriman: ${this.selectedCategory}`
+      )}%0ATotal Yang Dibayar: Rp${jumlah}%0AMetode Pengiriman: ${this.selectedCategory}`
 
       if (this.selectedCategory === 'Delivery') {
         message += `%0AAlamat: ${encodeURIComponent(this.deliveryAddress)}`
       }
 
-      return `https://wa.me/6281398396249?text=${message}`
+      return `https://wa.me/628525667000?text=${message}`
     }
   },
   methods: {

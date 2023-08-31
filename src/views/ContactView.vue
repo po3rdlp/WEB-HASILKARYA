@@ -19,7 +19,7 @@
             </h1>
           </div>
         </div>
-        <div class="w-full mt-5 grid grid-cols-2 gap-5 text-[#230F00]">
+        <div class="w-full mt-5 grid md:grid-cols-2 lg:grid-cols-2 gap-5 text-[#230F00]">
           <div>
             <p class="font-semibold">Kantor pusat</p>
             <div class="flex">
